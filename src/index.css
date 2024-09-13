@@ -62,6 +62,7 @@ nav a:active {
   flex-direction: column;
   text-align: center;
   padding: 1rem;
+  
 }
 
 #about img {
@@ -89,6 +90,7 @@ nav a:active {
   background-color: white;
   padding: 2rem;
   margin: 1rem;
+  align-items: flex-start;
 }
 
 .technologies span {
@@ -105,6 +107,9 @@ nav a:active {
   }
 
   .project-item {
-    width: 50%;
+    width: 20%;
+    flex-direction: row;
+    border-radius: 6px;
+    
   }
 }
